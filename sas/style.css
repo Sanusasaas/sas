@@ -1,0 +1,153 @@
+.nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 300px;
+}
+.header{
+	background-color: black;
+}
+.menu{
+	display: flex;
+}
+.menu li{
+	margin-left: 100px;
+}
+.menu li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 25px;
+	color: #fff ;
+}
+.logo {
+	background-image: url(images/img.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 28vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	padding-top: 200px;
+	font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+.flowers{
+	margin-right: 450px;
+}
+
+h2{ 
+	border-right: 100px;
+	border-color: red;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #d40000;
+}
+.roses1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 100px;
+	left: 375px;
+	text-align: center;
+}
+.roses2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 300px;
+	left: 375px;
+	text-align: center;
+}
+.rose1, .rose2, .rose3, .rose4, .rose5, .rose6{
+	border: 4px double black;
+    background: #acacac;
+    padding: 10px 25px 160px 25px;
+    border-radius: 35px; 
+}
+
+
+.flowers details{
+	position: relative;
+	top: 190px;
+	left:-380px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 250px;;
+	padding: 5px 50px 5px 5px;
+}
+#p1{
+	text-decoration:underline;
+	margin-top: 200px;
+	margin-left:0px;
+	position: relative;
+	top: 50px;
+	left: -135px;
+	font-size: 25px;
+	color: red;
+}
+input{
+	cursor: pointer;
+	position: relative;
+	top: 200px;
+	left: -225px;	
+	background-color: red;
+	color: #fff;
+	border-radius: 15px;
+	padding: 5px 20px 5px 20px;
+	font-size: 25px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,1);
+
+}
+.title:before,
+.title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1000px;
+    height: 4px;
+    background-color: red;
+    position: relative;
+}
+.title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+#title2{
+	position: relative;
+	left: 265px;
+	top: 500px;
+}
+.hriz1{
+	width: ;
+	height:153 ;
+}
+.hriz1, .hriz2, .hriz3{
+	border: 4px double black;
+    background: #acacac;
+    padding: 10px 25px 150px 25px;
+    border-radius: 35px;
+}
+.hrizs1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 100px;
+	left: 375px;
+	text-align: center;
+	margin-top: 550px;
+}
